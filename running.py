@@ -14,10 +14,10 @@ RUN = True
 def run():
     while RUN:
         if SPRINT:
-            K.press('s')
-            K.release('s')
-            time.sleep(0.5)
-
+            K.press(keyboard.Key.shift_l)
+            time.sleep(0.1)
+            K.release(keyboard.Key.shift_l)
+            time.sleep(0.4)
 
 def saj(key):
     global RUN, SPRINT

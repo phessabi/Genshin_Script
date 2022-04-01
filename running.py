@@ -17,11 +17,11 @@ def run():
             K.press(keyboard.Key.shift_l)
             time.sleep(0.1)
             K.release(keyboard.Key.shift_l)
-            time.sleep(0.4)
+            time.sleep(0.8)
 
 def saj(key):
     global RUN, SPRINT
-    if key == keyboard.Key.esc:
+    if key == keyboard.Key.shift_r:
         RUN = False
         return False
     try:

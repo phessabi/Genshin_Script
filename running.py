@@ -45,6 +45,7 @@ t.start()
 
 listener = keyboard.Listener(on_press=saj)
 listener.start()
+print('Ready!')
 listener.join()
 t.join()
 

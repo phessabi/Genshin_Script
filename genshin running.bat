@@ -1,0 +1,1 @@
+python "C:\Users\parham\Desktop\Script\genshin\Genshin_Script\running.py"

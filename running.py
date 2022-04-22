@@ -23,7 +23,7 @@ def run():
 
 def run_control_callback(key):
     global RUN, SPRINT
-    if key == keyboard.Key.shift_r:
+    if key == keyboard.Key.ctrl_r:
         RUN = False
         return False
     try:
